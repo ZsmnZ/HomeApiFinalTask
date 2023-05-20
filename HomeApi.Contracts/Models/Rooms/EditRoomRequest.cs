@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeApi.Contracts.Models.Devices
+namespace HomeApi.Contracts.Models.Rooms
 {
-   public class DeleteDeviceRequest
+   public class EditRoomRequest
     {
+        public string NewName { get; set; }
     }
 }
