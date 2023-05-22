@@ -2,8 +2,11 @@
 {
     public class UpdateRoomQuery
     {
-        public string newName { get; set; }
-        public int newArea { get; set; }
-
+        public string NewName { get; set; }
+      
+        public UpdateRoomQuery (string newName = null)
+        {
+            NewName = newName;
+        }
     }
 }

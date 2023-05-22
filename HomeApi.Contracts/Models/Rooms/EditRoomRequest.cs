@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HomeApi.Contracts.Models.Rooms
 {
-    public class EditRoomRequest
+   public class EditRoomRequest
     {
+        public string NewName { get; set; }
     }
 }
